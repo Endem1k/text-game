@@ -4,7 +4,9 @@ public class Main {
 
     /*
      * Главный метод.
+     * АБДЯЯЯЯЯЯЯдяяяяя
      */
+
     public static void main(String[] args) {
         // вызывает метод start()
         new Main().start();
@@ -44,3 +46,6 @@ public class Main {
     }
 
 }
+
+
+F

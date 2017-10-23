@@ -4,7 +4,7 @@ public class Main {
 
     /*
      * Главный метод.
-     * АБДЯЯЯЯЯЯЯдяяяяя
+     * АБДЯЯЯЯЯЯЯдяяяяяljl
      */
 
     public static void main(String[] args) {
@@ -47,5 +47,3 @@ public class Main {
 
 }
 
-
-F

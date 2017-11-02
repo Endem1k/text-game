@@ -46,10 +46,15 @@ public class Main {
         String action = па.nextLine();
 
         if (action.equals("кофе")) {
-            индус -=  2;
-            System.out.println("Минус деньги, которые я мог потратить на еду");
+            if (Math.random() > 0.5) {
+                индус -= 2;
+                System.out.println("Минус деньги, которые я мог потратить на еду");
 
-        } else if(action.equals("код")) {
+
+            } else {
+                System.out.println("Еще раз, я купил это дешевое кофе");
+            }
+        }if(action.equals("код")) {
             System.out.println("Ваш код на сегодня");
             String код = па.nextLine();
             индус = индус + код.length();

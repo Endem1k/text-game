@@ -17,11 +17,12 @@ public class Main {
      * Метод с логикой игры.
      */
     private void start() {
+        onFinish();
         onStart();
         for (int i = 1; i <= 5; ++i) {
             onNewDay(i);
         }
-        onFinish();
+
         onStartP();
     }
     /*
@@ -54,7 +55,7 @@ public class Main {
             } else {
                 System.out.println("Еще раз, я купил это дешевое кофе");
             }
-        }if(action.equals("код")) {
+        } else if(action.equals("код")) {
             System.out.println("Ваш код на сегодня");
             String код = па.nextLine();
             индус = индус + код.length();
@@ -76,10 +77,21 @@ public class Main {
 
 }
     /*
-     * Метод вызывается по завершению игры.l
+     * Метод вызывается по завершению игры.
      */
-    void onFinish() {
 
+
+
+    void onFinish() {
+        String launchGame = ("1,2,3");
+        Scanner па = new Scanner(System.in);
+        String age2 = па.nextLine();
+         if (int age = 15; age <= 13;) {
+
+                System.out.println("Не наш калибр...");
+         } else {
+             System.out.println( launchGame );
+        }
     }
 
 }
